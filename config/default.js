@@ -1,0 +1,16 @@
+export default Object.freeze({
+  inspect: true,
+  blockScannerAgents: true,
+  csrf: true,
+  allowedOrigins: Object.freeze([]),
+  blockFileMedia: true,
+  securityHeaders: true,
+  maxTargetBytes: 8192,
+  maxDeclaredBodyBytes: 65536,
+  rateLimit: true,
+  requestsPerMinute: 120,
+  globalPerMinute: 6000,
+  loginPerMinute: 10,
+  loginPaths: Object.freeze(['/login']),
+  maxTrackedPeers: 10000,
+});
