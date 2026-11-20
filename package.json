@@ -1,0 +1,11 @@
+{
+  "name": "secure-shield",
+  "version": "1.0.0",
+  "description": "Lightweight defensive HTTP middleware and static website gateway",
+  "private": true,
+  "license": "MIT",
+  "type": "module",
+  "main": "src/index.js",
+  "engines": {"node": ">=22"},
+  "scripts": {"test": "node --test", "start": "node examples/website/server.js", "example:app": "node examples/application.js"}
+}
